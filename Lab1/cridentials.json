@@ -1,0 +1,30 @@
+{
+    "cridentials":[
+        {"site":"site1.com", {"login":"vokel", "password":"pass123"}},
+        {"site":"site2.com", {"login":"vadim", "password":"pass456"}},
+        {"site":"site3.com", {"login":"lilekov", "password":"pass789"}},
+        {"site":"site4.com", {"login":"dima", "password":"pass412"}},
+        {"site":"site5.com", {"login":"roma", "password":"pass345"}},
+        {"site":"site6.com", {"login":"pupsik", "password":"lalalala"}},
+        {"site":"site7.com", {"login":"oxygen", "password":"breathe"}},
+        {"site":"site8.com", {"login":"clock", "password":"5oclock"}},
+        {"site":"site9.com", {"login":"rawdat", "password":"welldone43"}},
+        {"site":"site10.com", {"login":"proxy", "password":"vpn15"}}
+    ]
+}
+
+
+{
+    "cridentials":[
+        {"site":"site1.com", "logpass":"266a71dd6fe0896a9e974fa194393a06f62c63c6060be2bd3f378b578570714281ddcda1f416056f8002434a8c98cbad"},
+        {"site":"site2.com", "logpass":"f173631bb1001afe18f1d6791d79fa115a00e820007e79c3325c2f2c4363ea8fbf93aa06da469fd977ded8e63adbe834"},
+        {"site":"site3.com", "logpass":"07ccdca974710847ea3ae6cadc96c8ec79c8f6569074a4881121e915d5c31dc0656a423064035718b2d711b84c2d3ef3"},
+        {"site":"site4.com", "logpass":"fc66dff52e472950b261ef7a616134efa7ccb94bed7525f4f27060dd4e156947740f6e80380a5f6b00f78d02c3f92b75"},
+        {"site":"site5.com", "logpass":"1cae2c677c385db3509ff5232b8b01d2ed3a8a5f3a8c7ef02dc7400834f6dd7082e8032215a135f5292f0f929f66492b"},
+        {"site":"site6.com", "logpass":"e70477307c0c7ccf21992f384c431656855b6a081c4699ac2bd08cd6d8b49f6141b5fcbd8302fd03941e3bb140674dc0"},
+        {"site":"site7.com", "logpass":"6b8c715d6e8adf976f76b18b51fb29b7cca460137310cbb18f425a9bed5a903f514b865ebae6b8909745898559b7eff8"},
+        {"site":"site8.com", "logpass":"5af74057104daffabbf8325010f5be07f728affdc4c9a493b2f950176f0af370cf908ba7b62ac3e90cc4ec480f83951f"},
+        {"site":"site9.com", "logpass":"e65e3c77fdb9efe107d072f708871e6bfbfed4258e6d1ca75c370a3c8bcb89983160503d0820800243d2052ab729820d"},
+        {"site":"site10.com", "logpass":"e5b3d102caad0817d8f9b3cf9aecfdb8e8a5790e006ab1b46488370ea10a7d565ec7fb304ebcee71d577d64ee576d2d7"}
+    ]
+}
