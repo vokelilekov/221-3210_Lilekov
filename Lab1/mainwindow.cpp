@@ -19,18 +19,18 @@ MainWindow::MainWindow(QWidget *parent)
 
     connect(ui->LineEdit, &QLineEdit::textChanged, this, &MainWindow::Search);
 
-    for(int i = 0; i < m_jsonarray.size(); i++)
-    {
-        QJsonObject obj = m_jsonarray[i].toObject();
-        QString site = obj["site"].toString();
+    // for(int i = 0; i < m_jsonarray.size(); i++)
+    // {
+    //     QJsonObject obj = m_jsonarray[i].toObject();
+    //     QString site = obj["site"].toString();
 
-        QListWidgetItem * newItem = new QListWidgetItem();
-        CridentialWidget * itemWidget = new CridentialWidget(site, i);
-        newItem->setSizeHint(itemWidget->sizeHint());
+    //     QListWidgetItem * newItem = new QListWidgetItem();
+    //     CridentialWidget * itemWidget = new CridentialWidget(site, i);
+    //     newItem->setSizeHint(itemWidget->sizeHint());
 
-        ui->listWidget->addItem(newItem);
-        ui->listWidget->setItemWidget(newItem, itemWidget);
-    }
+    //     ui->listWidget->addItem(newItem);
+    //     ui->listWidget->setItemWidget(newItem, itemWidget);
+    // }
 }
 
 
@@ -71,7 +71,6 @@ bool MainWindow::readJSON(QByteArray key_hex)
 }
 
 
-
 int MainWindow::decryptFile(
     const QByteArray & encryptedBytes, const QByteArray & key_hex,
     QByteArray & decryptedBytes
@@ -83,7 +82,7 @@ int MainWindow::decryptFile(
     memcpy(key, key_ba.data(), 32);
     // qDebug() << "*** key " << key;
 
-    QByteArray iv_hex("00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f");
+    QByteArray iv_hex("000102030405060708090a0b0c0d0e0f");
     QByteArray iv_ba = QByteArray::fromHex(iv_hex);
     // qDebug() << "*** iv_ba " << iv_ba;
     unsigned char iv[16] = {0};
@@ -100,7 +99,7 @@ int MainWindow::decryptFile(
     }
     // qDebug() << "*** EVP_DecryptInit_ex2() OK";
 
-    #define BUF_LEN 256
+#define BUF_LEN 256
     unsigned char encrypted_buf[BUF_LEN] = {0}, decrypted_buf[BUF_LEN] = {0};
     int encr_len, decr_len;
     QDataStream encrypted_stream(encryptedBytes);
@@ -166,7 +165,7 @@ void MainWindow::on_edtPin_returnPressed()
     QByteArray hash = QCryptographicHash::hash(
         ui->edtPin->text().toUtf8(),
         QCryptographicHash::Sha256);
-    //qDebug() << "*** Sha256 = " << hash.toHex();
+    qDebug() << "*** Sha256 = " << hash.toHex();
 
     if(m_isStartup){
         if(readJSON(hash)) {

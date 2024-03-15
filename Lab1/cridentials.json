@@ -1,5 +1,6 @@
 {
     "cridentials":[
+
         {"site":"site1.com", {"login":"vokel", "password":"pass123"}},
         {"site":"site2.com", {"login":"vadim", "password":"pass456"}},
         {"site":"site3.com", {"login":"lilekov", "password":"pass789"}},
@@ -16,6 +17,7 @@
 
 {
     "cridentials":[
+        {"site":"site1.com", "logpass":"266a71dd6fe0896a9e974fa194393a06f62c63c6060be2bd3f378b578570714281ddcda1f416056f8002434a8c98cbad"},
         {"site":"site1.com", "logpass":"266a71dd6fe0896a9e974fa194393a06f62c63c6060be2bd3f378b578570714281ddcda1f416056f8002434a8c98cbad"},
         {"site":"site2.com", "logpass":"f173631bb1001afe18f1d6791d79fa115a00e820007e79c3325c2f2c4363ea8fbf93aa06da469fd977ded8e63adbe834"},
         {"site":"site3.com", "logpass":"07ccdca974710847ea3ae6cadc96c8ec79c8f6569074a4881121e915d5c31dc0656a423064035718b2d711b84c2d3ef3"},
