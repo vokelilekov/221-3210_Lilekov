@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Prerelease|Win32'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Simulation|Win32'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CVE-2020-0551-CF-Prerelease|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CVE-2020-0551-CF-Release|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CVE-2020-0551-Load-Prerelease|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CVE-2020-0551-Load-Release|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Prerelease|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Simulation|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\packages\Intel.SGX.SDK.2.22.100.2\build\native\bin\x64\Release
+</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\Users\vokel\221-3210_Lilekov\Lab3\untrusted\x64\Simulation</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
